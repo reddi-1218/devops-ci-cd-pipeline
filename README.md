@@ -47,8 +47,5 @@ See `/docs/architecture.png` for a visual diagram.
 2. Jenkins pipeline checks out code -> installs dependencies -> runs tests.
 3. Builds Docker image -> tags with build number -> pushes to registry.
 4. Deployment step updates the cloud service to use the new image.
-5. Monitoring collects logs/metrics; you can view them in Cloud console.
-
-## Submission
-- Fill the form: https://forms.gle/otmnfQvxiBh4YLW1A
-- Include link to your GitHub repository containing these files and `deployment-proof/`.
+5. Monitoring collects logs/metrics; you can view them in Cloud console
+6. 
