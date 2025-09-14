@@ -1,0 +1,15 @@
+{
+  "name": "devops-task-sample",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for DevOps pipeline demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node -e \"console.log('running lightweight test'); process.exit(0)\""
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
